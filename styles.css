@@ -1,0 +1,42 @@
+.formulario{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    background-color: lightblue;
+    box-shadow: gray;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    border: 4px solid #ccc;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 3px solid #ccc;
+}
+.contenido.label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+.respuestas{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 5px solid #ccc;
+}
+
